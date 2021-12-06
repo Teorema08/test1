@@ -10,7 +10,7 @@ class Class1 extends Aclass {
     arr[b] = temp;
   }
 
-// Данный метод сортировки - "сортировка слиянием", Compare лежит в app.js
+// Данный метод сортировки - "сортировка пузырьком", Compare лежит в app.js
   sort(compare = this.defaultCompare) {
     let length = this.n;
     let arr = this.numbers;
