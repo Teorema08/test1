@@ -12,7 +12,7 @@ class Class2 extends Aclass {
     }
     return result.concat(i < left.length ? left.slice(i) : right.slice(j));
   }
-
+// метод сортировки "сортировка слиянием". Compare лежит в app.js
   sort(arr = this.factorial(), compare = this.defaultCompare) {
 
     if (arr.length > 1) {
